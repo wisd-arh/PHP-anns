@@ -1,0 +1,49 @@
+<script type="text/javascript" language="Javascript" >
+<!--
+function check(sender, n) {
+		 document.all.newfind.value='1';
+		 if (n==1) {
+		 	sender.submit();
+		 } else {
+		   document.all.model.value = '';
+		   document.all.price.value = '';
+		   document.all.brand.value = '';
+   	 	   sender.submit();
+		 }
+} 
+
+//-->
+</script>	
+<p class="text">	   
+	   <form action="cgi-bin/enj.php" method="post" target="_self">
+	   <table class="def" width="100%" height="51">
+	   <tr>
+	   <td>
+	   <label for="brand">Производитель</label>
+	   <input name="brand" id="brand" type="text" value="Ford">
+	   </td>
+	   <td>
+	   <label for="model">Модель</label>
+	   <input name="model" id="model" type="text" value="C-Max">
+	   </td>
+	   <td>
+	   <label for="model">Цена</label>
+	   <input name="direction" type="radio" id="direction" value="1">Больше
+	   <input checked name="direction" type="radio" id="direction" value="0">Меньше
+	   <input name="price" id="price" type="text" size="10" value="200000">
+   
+       </td>
+	   </tr>
+	   <tr><td>* если поле пустое, то оно не играет роли.</td><td></td><td>
+	   <label for="findbut">Начать поиск.</label>&nbsp;&nbsp;
+	   <input name="findbut" id="findbut" type="button" value="Поиск" onclick="check(this.form, 1)">&nbsp;&nbsp;&nbsp;
+	   <input name="resetbut" id="resetbut" type="button" value="Показать все"  onclick="check(this.form, 0)"> 
+	   <input name="task" id="task" type="hidden" value="search">
+	   <input name="start" id="start" type="hidden" value="1">
+	   <input name="step" id="step" type="hidden" value="25">
+	   <input name="newfind" type="hidden" value="0">
+	   </td></tr>
+	   </table>
+<!--[comm]<p class="text">Объявления: c <b>[start]</b> по <b>[step]</b> из <b>[totalanns]</b></p>[comm]//-->
+	   </form>
+</p><br>  

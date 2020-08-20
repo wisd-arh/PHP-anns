@@ -1,0 +1,147 @@
+﻿<? 
+define('CLX_SITE',"veder.net.ru"); 
+require_once($_SERVER['DOCUMENT_ROOT'].'//clx2.php'); 
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title> Автомобили Архангельска, Новодвинска, Северодвинска.</title>
+	<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+	<meta name=keywords content="ArhCar Автомобили Машины Аксессуары Шины Колеса Диски Продажа Объявления Объявление Купить Покупка Продать Архангельск Новодвинск Северодвинск">
+
+	<meta NAME="Robots" CONTENT="All">
+	<meta NAME="Document-state" CONTENT="Dynamic">
+	<meta NAME="Resource-type" CONTENT="document">
+	<meta name=Revisit-after content="10 days">
+	<meta http-equiv="Content-type" content="Text/html; charset=utf-8">
+	<meta name="GENERATOR" content="A.I.">
+	<meta name="AUTOR" content="A.I.">
+	<meta name="description" content=" Автомобили Архангельска, Новодвинска, Северодвинска.">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<meta http-equiv="expires" content="Mon, 01 Jan 1990 00:00:00 GMT">
+	<META NAME="URL" CONTENT="">
+
+	<link href="http://veder.net.ru/def.css" type=text/css rel=stylesheet>	
+<script type="text/javascript" language="Javascript" >
+<!--
+function check(sender) {
+		 if ((document.all.brand.value != '') && (document.all.model.value != '') && (document.all.description.value != '')  && (document.all.cappa.value != '')){
+		   sender.submit();
+		 } else {
+		   alert('Не все обязательные поля введены.');
+		 }
+} 
+//-->
+</script>	
+<base href="http://veder.net.ru/"></head>
+
+<body bgcolor="#ffffff" LINK="#000000" VLINK="#000000" ALINK="#4F0000">
+<form action="cgi-bin/enj.php" method="post" target="_self" enctype="multipart/form-data">
+<input type="hidden" name="task" value="newann">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+<tr height="150"><td><!--/ Заголовок /--><img src="http://veder.net.ru/cap.jpg" alt=" Автомобили Архангельска, Новодвинска, Северодвинска." align="center" border="0"></td></tr>
+<tr>
+       <td>
+<table cellspacing="20" cellpadding="0" width="100%" height="100%">
+<tr>
+       <td width="150" valign="top"><!--/ Меню /--><br>
+	   <p class="menu">
+	   <a href="index.html" target="_self">Главная</a>
+	   <br><font size="4">&nbsp;</font><a href="cgi-bin/enj.php?task=anns&start=1&step=25" target="_self">Просмотр объявлений</a>
+	   <br><font size="4">&nbsp;</font><a href="cgi-bin/enj.php?task=myanns" target="_self">Мои объявления</a>
+	   <br><font size="4">&nbsp;</font><a href="cgi-bin/enj.php?task=newreg" target="_self">Регистрация</a>
+	   <br><font size="4">&nbsp;</font><a href="cgi-bin/enj.php?task=prnewann" target="_self">Подать объявление</a>
+	   <br><font size="4">&nbsp;</font><a href="rules.html" target="_self">!Правила</a>
+	   </p>
+	   </td>
+       <td valign=top><!--/ Данные /--> 
+	   <p class="text"><b>Создание нового объявления.</b><br><!--/ [IllegalReg] /--><br></p>
+	   <p class="text" align="justify">
+	   Создавая объявление, Вы подтверждаете свое согласие с <a href="rules.html" target="_self">Правилами</a> сайта. 
+	   Помните, что объявление, однажды Вами созданное, будет находиться на сайте до тех пор, пока Вы его не удалите.
+	   Чтобы удалить, в последующем, объявление перейдите на страницу <a href="cgi-bin/enj.php?task=myanns" target="_self">Мои объявления</a>
+	   и щелкните по ссылке "Удалить". 
+	   К каждому объявлению будет добавлен телефон, который Вы указали при регистрации на сайте.
+	   </p>  
+	   <p class="text">Пожалуйста, укажите данные.<br><br>
+	   <table class="def" border="0" cellpadding="0" width="100%">
+
+<tr>
+       <td width="200" align="right"><label for="brand">Производитель автомобиля *</label></td>
+       <td><input name="brand" value="" id="brand" type="text" size="50"><br></td>
+</tr>
+<tr>
+       <td width="200" align="right"><label for="model">Модель автомобиля *</label></td>
+       <td><input name="model" value="" id="model" type="text" size="50"><br></td>
+</tr>
+<tr>
+       <td width="200" align="right" valign="top"><label for="description">Описание машины (год, цвет и т.д.) *</label></td>
+       <td><input name="description" value="" id="description" type="text" size="50"><br><br></td>
+</tr>
+<tr>
+       <td width="200" align="right"><label for="equipment">Установленное оборудование</label></td>
+       <td><input name="equipment" value="" id="equipment" type="text" size="50"></td>
+</tr>
+<tr>
+       <td width="200" align="right"><label for="price">Цена в рублях.</label></td>
+       <td><input name="price" value="" id="price" type="text"></td>
+</tr>
+<tr>
+       <td width="200" align="right"><label for="other">Произвольное описание</label> (все, что Вы хотите добавить)</td>
+       <td><input name="other" value="" id="other" type="text" size="50"></td>
+</tr>
+<tr>
+       <td align="right"><img src="[cappaimg]" alt="Включите отображение картинок в браузере." align="right" border="0" width="100"></td>
+       <td></td>
+</tr>
+<tr>
+       <td align="right"><label for="icq">Введите 5 цифр с картинки. *</label></td>
+       <td><input name="cappa" value="" id="cappa" type="text"></td>
+</tr>
+<tr>
+       <td><br>* - обязательные поля </td>
+       <td></td>
+</tr>
+</table>
+<p class="text" align="justufy">Далее мы рекомендуем Вам добавить фотографии автомобиля к объявлению. Просто выберите фотографию у себя на компьютере (нажав на кнопку "Обзор"), и фотография будет передана на сайт и добавлена к Вашему объявлению. 
+Вы можете выбрать до 4 фотографий. Каждая фотография, при публикации, будет автоматически уменьшена до размера 300 на 225 точек. Фотографии должны быть в формате JPEG.</p>
+	   <table class="def" border="0" cellpadding="0" width="100%">
+<tr>
+       <td width="200" align="right"><label for="foto1">Фотография</label></td>
+       <td><input name="foto1" value="" id="foto1" type="file" size="50"></td>
+</tr>
+<tr>
+       <td align="right"><label for="foto2">Фотография</label></td>
+       <td><input name="foto2" value="" id="foto2" type="file" size="50"></td>
+</tr>
+<tr>
+       <td align="right"><label for="foto3">Фотография</label></td>
+       <td><input name="foto3" value="" id="foto3" type="file" size="50"></td>
+</tr>
+<tr>
+       <td align="right"><label for="foto4">Фотография</label></td>
+       <td><input name="foto4" value="" id="foto4" type="file" size="50"></td>
+</tr>
+<tr>
+       <td align="right" ><label for="but">Создать объявление.</label></td>
+       <td valign="bottom"><input type="button" name="but" value="   Ok   " id="but" onclick="check(this.form)"></td>
+</tr>
+
+</table>
+	   </p>
+
+	   </td>
+</tr>
+<tr><td></td><td align="center"><br><img src="http://veder.net.ru/line.jpg" align="middle" border="0" width="700" height="1">
+	  <p class="img" align="center" >(c) A.I. /2007/&nbsp;&nbsp;&nbsp;<a href="mailto:wisd@rambler.ru" target="_blank" onMouseOver="window.status='Написать нам'; return true;" onMouseOut="window.status=''; return true;">Написать нам</a></p>
+</td></tr>
+</table>
+	   
+	   </td>
+</tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,136 @@
+﻿<? 
+define('CLX_SITE',"veder.net.ru"); 
+require_once($_SERVER['DOCUMENT_ROOT'].'//clx2.php'); 
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title> Автомобили Архангельска, Новодвинска, Северодвинска.</title>
+	<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+	<meta name=keywords content="ArhCar Автомобили Машины Аксессуары Шины Колеса Диски Продажа Объявления Объявление Купить Покупка Продать Архангельск Новодвинск Северодвинск">
+
+	<meta NAME="Robots" CONTENT="All">
+	<meta NAME="Document-state" CONTENT="Dynamic">
+	<meta NAME="Resource-type" CONTENT="document">
+	<meta name=Revisit-after content="10 days">
+	<meta http-equiv="Content-type" content="Text/html; charset=utf-8">
+	<meta name="GENERATOR" content="A.I.">
+	<meta name="AUTOR" content="A.I.">
+	<meta name="description" content=" Автомобили Архангельска, Новодвинска, Северодвинска.">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<meta http-equiv="expires" content="Mon, 01 Jan 1990 00:00:00 GMT">
+	<META NAME="URL" CONTENT="">
+
+	<link href="http://veder.net.ru/def.css" type=text/css rel=stylesheet>	
+<script type="text/javascript" language="Javascript" >
+<!--
+function check(sender) {
+		 if (document.all.pass.value != document.all.pass2.value) {
+		 	alert('Пароль введен не одинаково.');
+		 } else 
+		 if ((document.all.pass.value != '') && (document.all.user.value != '') && (document.all.name.value != '') && (document.all.phone.value != '') && (document.all.cappa.value != '')){
+		   sender.submit();
+		 } else {
+		   alert('Не все обязательные поля введены.');
+		 }
+} 
+//-->
+</script>	
+<base href="http://veder.net.ru/"></head>
+
+<body bgcolor="#ffffff" LINK="#000000" VLINK="#000000" ALINK="#4F0000">
+<form action="cgi-bin/enj.php" method="post" target="_self">
+<input type="hidden" name="task" value="reg">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+<tr height="150"><td><!--/ Заголовок /--><img src="http://veder.net.ru/cap.jpg" alt=" Автомобили Архангельска, Новодвинска, Северодвинска." align="center" border="0"></td></tr>
+<tr>
+       <td>
+<table cellspacing="20" cellpadding="0" width="100%" height="100%">
+<tr>
+       <td width="150" valign="top"><!--/ Меню /--><br>
+	   <p class="menu">
+	   <a href="index.html" target="_self">Главная</a>
+	   <br><font size="4">&nbsp;</font><a href="cgi-bin/enj.php?task=anns&start=1&step=25" target="_self">Просмотр объявлений</a>
+	   <br><font size="4">&nbsp;</font><a href="cgi-bin/enj.php?task=myanns" target="_self">Мои объявления</a>
+	   <br><font size="4">&nbsp;</font><a href="cgi-bin/enj.php?task=newreg" target="_self">Регистрация</a>
+	   <br><font size="4">&nbsp;</font><a href="cgi-bin/enj.php?task=prnewann" target="_self">Подать объявление</a>
+	   <br><font size="4">&nbsp;</font><a href="rules.html" target="_self">!Правила</a>
+	   </p>
+	   </td>
+       <td valign=top><!--/ Данные /--> 
+	   <p class="text"><b>Регистрация.</b><br><!--/ [IllegalReg] /--><br>
+	   
+	   Регистрация на сайте позволит вам бесплатно публиковать на сайте свои объявления.
+	   <br>
+	   Пожалуйста, укажите Ваши личные данные.<br><br>
+	   <table class="def" border="0" cellpadding="0" width="100%">
+
+<tr>
+       <td width="200" align="right"><label for="user">Имя для входа на сайт (login) *</label></td>
+       <td><input name="user" value="" id="user" type="text"><br></td>
+</tr>
+<tr>
+       <td align="right"><label for="pass">Пароль *</label></td>
+       <td><input name="pass" value="" id="pass" type="password"><br></td>
+</tr>
+<tr>
+       <td align="right" valign="top"><label for="pass2">Повторите пароль *</label></td>
+       <td><input name="pass2" value="" id="pass2" type="password"><br><br></td>
+</tr>
+<tr>
+       <td align="right"><label for="name">ФИО *</label></td>
+       <td><input name="name" value="" id="name" type="text"></td>
+</tr>
+<tr>
+       <td align="right"><label for="phone">Телефон. *</label><br>Этот телефон будет<br> указан в объявлении.</td>
+       <td><input name="phone" value="" id="phone" type="text"></td>
+</tr>
+<tr>
+       <td align="right"><label for="email">Адрес электронной почты</label></td>
+       <td><input name="email" value="" id="email" type="text"></td>
+</tr>
+<tr>
+       <td align="right"><label for="sex">Пол</label></td>
+       <td><input name="sex" value="1" id="sex" type="radio">Мужской<input name="sex" value="0" id="sex" type="radio">Женский</td>
+</tr>
+<tr>
+       <td align="right"><label for="age">Возраст</label></td>
+       <td><input name="age" value="" id="age" type="text"></td>
+</tr>
+<tr>
+       <td align="right"><label for="icq">номер ICQ</label></td>
+       <td><input name="icq" value="" id="icq" type="text"></td>
+</tr>
+<tr>
+       <td align="right"><img src="[cappaimg]" alt="Включите отображение картинок в браузере." align="right" border="0" width="100"></td>
+       <td></td>
+</tr>
+<tr>
+       <td align="right"><label for="icq">Введите 5 цифр с картинки. *</label></td>
+       <td><input name="cappa" value="" id="cappa" type="text"></td>
+</tr>
+<tr>
+       <td><br>* - обязательные поля </td>
+       <td></td>
+</tr>
+<tr>
+       <td align="right" ><label for="but">Зарегистрироваться.</label></td>
+       <td valign="bottom"><input type="button" name="but" value="   Ok   " id="but" onclick="check(this.form)"></td>
+</tr>
+
+</table>
+	   </p>
+	   </td>
+</tr>
+<tr><td></td><td align="center"><br><img src="http://veder.net.ru/line.jpg" align="middle" border="0" width="700" height="1">
+	  <p class="img" align="center" >(c) A.I. /2007/&nbsp;&nbsp;&nbsp;<a href="mailto:wisd@rambler.ru" target="_blank" onMouseOver="window.status='Написать нам'; return true;" onMouseOut="window.status=''; return true;">Написать нам</a></p>
+</td></tr>
+</table>
+	   </td>
+</tr>
+</table>
+</form>
+</body>
+</html>

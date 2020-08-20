@@ -1,0 +1,80 @@
+<STYLE type="text/css">
+
+.mainstyle {
+	COLOR: #000000; FONT-FAMILY: Tahoma; TEXT-ALIGN: center; FONT-SIZE : 20;
+}
+
+H1.myclass {border-width: 1; border: solid; text-align: center}
+
+Table.Def {
+	FONT-FAMILY: Tahoma; TEXT-ALIGN: Left; FONT-SIZE: 11;
+	COLOR: #003399
+}  
+
+Table.News {
+	FONT-FAMILY: Tahoma; TEXT-ALIGN: Left; FONT-SIZE: 14;
+	COLOR: #040251
+}  
+
+TD.c1 {
+	FONT-FAMILY: Tahoma; TEXT-ALIGN: Left; FONT-SIZE: 10;
+	COLOR: #003399
+}    
+
+P.menu {
+	FONT-FAMILY: Tahoma; TEXT-ALIGN: Right; FONT-SIZE: 12;
+	COLOR: #0
+}
+
+A:link { color: #000000; TEXT-ALIGN: Right;}       /* unvisited link */
+A:visited { color: #000000; TEXT-ALIGN: Right;}   /* visited links */
+A:active { color: #4F0000; TEXT-ALIGN: Right;}    /* active links */
+
+P.text {
+	FONT-FAMILY: Tahoma; TEXT-ALIGN: justify; FONT-SIZE: 12;
+	COLOR: #0
+}
+
+P.img {
+	FONT-FAMILY: Tahoma; TEXT-ALIGN: center; FONT-SIZE: 11;
+	COLOR: #0
+}
+P.title {
+	FONT-FAMILY: Tahoma; TEXT-ALIGN: Left; FONT-SIZE: 12;
+	COLOR: #0; font-weight: bold
+}
+
+Div.text {
+	FONT-FAMILY: Tahoma; TEXT-ALIGN: justify; FONT-SIZE: 12;
+	COLOR: #0
+}
+
+Div.title {
+	FONT-FAMILY: Tahoma; TEXT-ALIGN: Left; FONT-SIZE: 12;
+	COLOR: #0; font-weight: bold
+}
+
+Div.smtxt {
+	FONT-FAMILY: Tahoma; TEXT-ALIGN: Right; FONT-SIZE: 12;
+	COLOR: #4F0000
+}
+
+Span.title {
+	FONT-FAMILY: Tahoma; TEXT-ALIGN: Left; FONT-SIZE: 12;
+	COLOR: #0; font-weight: bold
+}
+
+li {
+	FONT-FAMILY: Tahoma; TEXT-ALIGN: justify; FONT-SIZE: 12;
+	COLOR: #0
+}  
+
+input {
+padding: 2px;
+border:1px solid;
+border-color : #8a0648;
+background: #f8f3fe;
+FONT-SIZE: 12;
+}
+
+</STYLE>
